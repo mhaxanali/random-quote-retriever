@@ -1,21 +1,22 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=77.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "random-quote-retriever"
-version = "0.1.2"
-description = "A simple CLI tool to fetch random quotes from ZenQuotes API"
-authors = [
-  { name = "Muhammad Hasan", email = "mhasanali210@google.com" }
-]
+version = "0.2.0"
+description = "A simple CLI tool to fetch random quotes from the ZenQuotes API"
 readme = "README.md"
-license = { text = "MIT" }
-requires-python = ">=3.9"
-
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "Muhammad Hasan" }]
 dependencies = [
-  "requests>=2.32.3"
+  "requests>=2.32.3",
+  "platformdirs>=4.0",
 ]
 
 [project.scripts]
-quote = "main:main"
+quote = "random_quote_retriever.cli:main"
+
+[tool.setuptools]
+packages = ["random_quote_retriever"]
