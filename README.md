@@ -3,13 +3,18 @@
 ## PyPI Project Link
 https://pypi.org/project/random-quote-retriever/
 ## What it does?
-- Uses `zenquotes.io/api` to retrieve a random quote. Can optionally save the quote in a system-wide quotes.json file if you like it
+- Uses `zenquotes.io/api` to retrieve a random quote. Can optionally save the quote.
 - API handling using `requests` and argument parsing using `argparse`
 ## Setting up
 - Download the project:
     ```bash
     python3 -m pip install random-quote-retriever
     ```
+## Where quotes are stored
+Saved quotes go to your user data folder (e.g. `~/.local/share/random-quote-retriever/quotes.json`
+on Linux, `%LOCALAPPDATA%\random-quote-retriever\...` on Windows).
+
+Quotes provided by [ZenQuotes.io](https://zenquotes.io).
 ## Usage
 ### Retrieving Quotes
 Run the script using (retrieve a random quote):
