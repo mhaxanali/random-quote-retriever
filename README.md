@@ -1,5 +1,5 @@
 # CLI Random Quote Retriever
-## By mhasanali2010
+## By mhaxanali
 ## PyPI Project Link
 https://pypi.org/project/random-quote-retriever/
 ## What it does?
