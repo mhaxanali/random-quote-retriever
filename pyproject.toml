@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "random-quote-retriever"
-version = "0.2.0"
+version = "0.2.1"
 description = "A simple CLI tool to fetch random quotes from the ZenQuotes API"
 readme = "README.md"
 license = "MIT"
